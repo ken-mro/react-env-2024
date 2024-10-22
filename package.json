@@ -33,7 +33,7 @@
         "eslint-plugin-react-refresh": "^0.4.12",
         "globals": "^15.11.0",
         "happy-dom": "^15.7.4",
-        "husky": "^9.1.6",
+        "husky": "^8.0.0",
         "jiti": "^2.3.3",
         "lint-staged": "^15.2.10",
         "prettier": "^3.3.3",
@@ -45,7 +45,7 @@
     },
     "lint-staged": {
         "*.{js,jsx,ts,tsx}": [
-          "prettier --write",
+            "prettier --write",
             "eslint --fix"
         ]
     }
